@@ -21,6 +21,10 @@
         ul { padding-left: 20px; }
         .subtitle { color: #666; font-size: 0.9em; margin-bottom: 24px; }
         .footer { margin-top: 32px; padding-top: 16px; border-top: 1px solid #ddd; color: #888; font-size: 0.85em; }
+        a { color: #0066cc; }
+        table { width: 100%; border-collapse: collapse; margin-bottom: 12px; font-size: 0.95em; }
+        th, td { text-align: left; padding: 8px; border-bottom: 1px solid #eee; }
+        th { font-weight: 600; }
     </style>
 </head>
 <body>
@@ -28,38 +32,70 @@
     <p class="subtitle">WartungsChecker &ndash; iOS App</p>
 
     <h2>1. Verantwortlicher</h2>
-    <p>Ren&eacute; Scheucher<br>E-Mail: contact@nexuslaps.com</p>
+    <p>Nexus Labs<br>Ren&eacute; Scheucher<br>E-Mail: <a href="mailto:contact@nexuslaps.com">contact@nexuslaps.com</a></p>
 
     <h2>2. Welche Daten werden erhoben?</h2>
-    <p>WartungsChecker speichert alle Daten (Ger&auml;tenamen, Wartungsintervalle, Wartungshistorie) <strong>ausschlie&szlig;lich lokal auf deinem Ger&auml;t</strong>. Es werden keine personenbezogenen Daten an uns oder an Dritte &uuml;bermittelt.</p>
+    <p>WartungsChecker verwaltet Wartungstermine f&uuml;r Haushaltsger&auml;te, technische Anlagen und Fahrzeuge. Alle App-Daten (Ger&auml;tenamen, Wartungsintervalle, Wartungshistorie, Notizen) werden <strong>ausschlie&szlig;lich lokal auf deinem Ger&auml;t</strong> gespeichert. Diese Daten werden nicht an uns oder an Dritte &uuml;bermittelt und verlassen dein Ger&auml;t nicht.</p>
+    <p>Die App selbst erhebt <strong>keine personenbezogenen Daten</strong> wie Name, E-Mail-Adresse, Standort oder Kontakte. Die nachfolgend beschriebenen Drittanbieter-Dienste k&ouml;nnen jedoch technische Daten erheben.</p>
 
-    <h2>3. Benachrichtigungen</h2>
-    <p>Die App kann lokale Push-Benachrichtigungen senden, um dich an anstehende Wartungen zu erinnern. Diese Benachrichtigungen werden vollst&auml;ndig auf deinem Ger&auml;t erzeugt und verarbeitet. Du kannst die Berechtigung jederzeit in den iOS-Einstellungen widerrufen.</p>
+    <h2>3. Drittanbieter-Dienste</h2>
+    <p>Die App nutzt folgende Drittanbieter-Dienste:</p>
 
-    <h2>4. In-App-K&auml;ufe</h2>
-    <p>Die App bietet optionale In-App-K&auml;ufe und Abonnements an. Die Kaufabwicklung erfolgt ausschlie&szlig;lich &uuml;ber Apple (App Store). Wir haben keinen Zugriff auf deine Zahlungsdaten.</p>
-
-    <h2>5. Analyse &amp; Tracking</h2>
-    <p>Die App verwendet <strong>TelemetryDeck</strong>, einen datenschutzkonformen Analysedienst. TelemetryDeck erfasst ausschlie&szlig;lich anonymisierte, aggregierte Nutzungsstatistiken (z.&nbsp;B. welche Funktionen genutzt werden). Es werden <strong>keine personenbezogenen Daten</strong> erhoben, keine IP-Adressen gespeichert und kein Nutzer-Tracking durchgef&uuml;hrt. Ein Consent-Banner ist daher nicht erforderlich.</p>
-    <p>Weitere Informationen: <a href="https://telemetrydeck.com/privacy/" target="_blank" rel="noopener">TelemetryDeck Datenschutz</a></p>
-
-    <h2>6. Werbung</h2>
-    <p>Die kostenlose Version der App zeigt Werbeanzeigen an. Die Anzeigen werden &uuml;ber <strong>Google AdMob</strong> bereitgestellt. Google kann dabei anonymisierte Ger&auml;tedaten (z.&nbsp;B. Ger&auml;te-ID f&uuml;r Werbung, Ger&auml;tetyp) verwenden, um relevante Werbung auszuliefern. Es werden keine personenbezogenen Daten wie Name, E-Mail oder Standort an Google weitergegeben.</p>
-    <p>Durch ein Upgrade auf die Pro-Version oder den Kauf der Option &bdquo;Werbung entfernen&ldquo; wird s&auml;mtliche Werbung dauerhaft deaktiviert.</p>
-    <p>Weitere Informationen: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Datenschutzerkl&auml;rung</a></p>
-
-    <h2>7. Deine Rechte</h2>
-    <p>Da alle Daten lokal auf deinem Ger&auml;t gespeichert werden, hast du jederzeit volle Kontrolle:</p>
+    <h2>3a. Analyse &ndash; TelemetryDeck</h2>
+    <p>Die App verwendet <strong>TelemetryDeck</strong>, einen datenschutzkonformen Analysedienst mit Sitz in der EU. TelemetryDeck erfasst ausschlie&szlig;lich anonymisierte, aggregierte Nutzungsstatistiken, zum Beispiel:</p>
     <ul>
-        <li><strong>Einsicht &amp; Export:</strong> Alle Daten sind direkt in der App sichtbar.</li>
-        <li><strong>L&ouml;schung:</strong> Durch Deinstallation der App werden alle Daten vollst&auml;ndig entfernt.</li>
+        <li>Welche Funktionen genutzt werden (z.&nbsp;B. Ger&auml;t hinzugef&uuml;gt, Wartung abgeschlossen)</li>
+        <li>Allgemeine App-Nutzungsmuster (z.&nbsp;B. App-Start, Bildschirmaufrufe)</li>
+        <li>Anonymisierte Kaufereignisse (Produkt-ID und Preis bei In-App-K&auml;ufen)</li>
     </ul>
+    <p>Es werden <strong>keine personenbezogenen Daten</strong> erhoben, keine IP-Adressen gespeichert und kein ger&auml;te&uuml;bergreifendes Nutzer-Tracking durchgef&uuml;hrt. TelemetryDeck ist DSGVO-konform und ein Consent-Banner ist nicht erforderlich.</p>
+    <p><strong>Rechtsgrundlage:</strong> Berechtigtes Interesse (Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO) an der Verbesserung der App.</p>
+    <p>Weitere Informationen: <a href="https://telemetrydeck.com/privacy/" target="_blank" rel="noopener">TelemetryDeck Datenschutzerkl&auml;rung</a></p>
 
-    <h2>8. &Auml;nderungen</h2>
+    <h2>3b. Werbung &ndash; Google AdMob</h2>
+    <p>Die kostenlose Version der App zeigt Werbeanzeigen an. Die Anzeigen werden &uuml;ber <strong>Google AdMob</strong> (Google LLC, USA) bereitgestellt. Die App fragt <strong>nicht</strong> nach Tracking-Erlaubnis (kein ATT-Dialog) und greift nicht auf die Werbe-ID (IDFA) deines Ger&auml;ts zu. Google AdMob kann dennoch folgende Daten erheben und verarbeiten:</p>
+    <ul>
+        <li><strong>IP-Adresse</strong> (zur Standortbestimmung auf Landesebene)</li>
+        <li><strong>Ger&auml;teinformationen</strong> (Ger&auml;tetyp, Betriebssystem, Bildschirmgr&ouml;&szlig;e)</li>
+        <li><strong>Interaktionsdaten</strong> (Anzeigenaufrufe, Klicks)</li>
+    </ul>
+    <p>Ohne Zugriff auf die IDFA liefert Google &uuml;berwiegend <strong>kontextbezogene Werbung</strong> aus. Die erhobenen Daten k&ouml;nnen an Werbenetzwerke und Partner von Google weitergegeben werden.</p>
+    <p><strong>Werbung deaktivieren:</strong> Durch ein Upgrade auf die Pro-Version oder den Kauf der Option &bdquo;Werbung entfernen&ldquo; wird s&auml;mtliche Werbung in der App <strong>dauerhaft deaktiviert</strong> und Google AdMob erhebt keine weiteren Daten mehr.</p>
+    <p><strong>Rechtsgrundlage:</strong> Einwilligung (Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;a DSGVO) bzw. berechtigtes Interesse (Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO) an der Finanzierung der kostenlosen App-Version.</p>
+    <p>Weitere Informationen: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Datenschutzerkl&auml;rung</a> | <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google Partner-Informationen</a></p>
+
+    <h2>4. Benachrichtigungen</h2>
+    <p>Die App kann lokale Push-Benachrichtigungen senden, um dich an anstehende Wartungen zu erinnern. Diese Benachrichtigungen werden vollst&auml;ndig auf deinem Ger&auml;t erzeugt und verarbeitet &ndash; es werden keine Daten an Server gesendet. Du kannst die Berechtigung jederzeit in den iOS-Einstellungen widerrufen.</p>
+
+    <h2>5. In-App-K&auml;ufe &amp; Abonnements</h2>
+    <p>Die App bietet optionale In-App-K&auml;ufe und Abonnements an. Die Kaufabwicklung erfolgt ausschlie&szlig;lich &uuml;ber Apples App Store. Wir haben keinen Zugriff auf deine Zahlungsdaten. Apple verarbeitet diese Daten gem&auml;&szlig; der <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple Datenschutzrichtlinie</a>.</p>
+
+    <h2>6. Datenspeicherung &amp; L&ouml;schung</h2>
+    <p>Alle App-Daten werden lokal auf deinem Ger&auml;t gespeichert. Durch Deinstallation der App werden alle lokalen Daten vollst&auml;ndig und unwiderruflich gel&ouml;scht.</p>
+    <p>Von Drittanbietern erhobene Daten (TelemetryDeck, Google AdMob) werden gem&auml;&szlig; deren jeweiliger Datenschutzerkl&auml;rung gespeichert und gel&ouml;scht. TelemetryDeck speichert anonymisierte Daten f&uuml;r maximal 24 Monate.</p>
+
+    <h2>7. Deine Rechte (DSGVO)</h2>
+    <p>Als Nutzer in der Europ&auml;ischen Union hast du folgende Rechte:</p>
+    <ul>
+        <li><strong>Auskunft</strong> (Art.&nbsp;15 DSGVO): Du kannst Auskunft &uuml;ber die von dir verarbeiteten Daten verlangen.</li>
+        <li><strong>Berichtigung</strong> (Art.&nbsp;16 DSGVO): Du kannst die Korrektur unrichtiger Daten verlangen.</li>
+        <li><strong>L&ouml;schung</strong> (Art.&nbsp;17 DSGVO): Du kannst die L&ouml;schung deiner Daten verlangen.</li>
+        <li><strong>Einschr&auml;nkung</strong> (Art.&nbsp;18 DSGVO): Du kannst die Einschr&auml;nkung der Verarbeitung verlangen.</li>
+        <li><strong>Daten&uuml;bertragbarkeit</strong> (Art.&nbsp;20 DSGVO): Du kannst deine Daten in einem &uuml;bertragbaren Format anfordern.</li>
+        <li><strong>Widerspruch</strong> (Art.&nbsp;21 DSGVO): Du kannst der Verarbeitung deiner Daten widersprechen.</li>
+        <li><strong>Beschwerde</strong>: Du hast das Recht, eine Beschwerde bei einer Datenschutzaufsichtsbeh&ouml;rde einzureichen.</li>
+    </ul>
+    <p>Da alle App-Daten lokal auf deinem Ger&auml;t gespeichert werden, hast du jederzeit volle Kontrolle &uuml;ber deine Daten direkt in der App. F&uuml;r Anfragen zu Drittanbieter-Daten kontaktiere uns bitte per E-Mail.</p>
+
+    <h2>8. Kinder &amp; Jugendliche</h2>
+    <p>Die App ist f&uuml;r alle Altersgruppen geeignet (App Store Bewertung 4+). Wir erheben selbst keine personenbezogenen Daten. Die kostenlose Version zeigt Werbung &uuml;ber Google AdMob an, wobei Google Ger&auml;tedaten verarbeiten kann (siehe Abschnitt 3b). F&uuml;r Minderj&auml;hrige unter 14 Jahren (gem&auml;&szlig; &ouml;sterreichischem Datenschutzgesetz, &sect;&nbsp;4 Abs.&nbsp;4 DSG) empfehlen wir die Zustimmung eines Erziehungsberechtigten.</p>
+
+    <h2>9. &Auml;nderungen</h2>
     <p>Wir behalten uns vor, diese Datenschutzerkl&auml;rung bei Bedarf anzupassen. Die aktuelle Fassung ist stets unter dieser URL abrufbar.</p>
 
     <div class="footer">
-        <p>Stand: Februar 2026</p>
+        <p>Stand: M&auml;rz 2026</p>
+        <p>Kontakt: <a href="mailto:contact@nexuslaps.com">contact@nexuslaps.com</a></p>
     </div>
 </body>
 </html>
