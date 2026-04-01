@@ -138,7 +138,7 @@ a {
   gap: 48px;
   align-items: center;
   min-height: calc(100svh - 110px);
-  padding-bottom: 34px;
+  padding-bottom: 120px;
 }
 
 .eyebrow {
@@ -269,7 +269,7 @@ a {
 
 .hero-visual {
   position: relative;
-  min-height: 720px;
+  min-height: 840px;
 }
 
 .poster-stack {
@@ -751,7 +751,7 @@ a {
   }
 
   .hero-visual {
-    min-height: 560px;
+    min-height: 720px;
   }
 
   .poster-stack {
@@ -781,6 +781,7 @@ a {
   .hero-grid {
     min-height: auto;
     gap: 36px;
+    padding-bottom: 72px;
   }
 
   .hero-copy h1 {
@@ -792,7 +793,7 @@ a {
   }
 
   .hero-visual {
-    min-height: 500px;
+    min-height: 640px;
   }
 
   .poster-note {
