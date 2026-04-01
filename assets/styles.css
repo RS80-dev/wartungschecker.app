@@ -188,8 +188,27 @@ a {
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 14px;
   margin-bottom: 28px;
+}
+
+.app-store-badge-link {
+  display: inline-flex;
+  width: min(190px, 100%);
+  line-height: 0;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.app-store-badge-link:hover {
+  transform: translateY(-2px);
+  opacity: 0.96;
+}
+
+.app-store-badge {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .button {
@@ -255,8 +274,9 @@ a {
 
 .poster-stack {
   position: relative;
-  width: min(560px, 100%);
+  width: min(520px, 100%);
   margin-left: auto;
+  padding-top: 36px;
 }
 
 .poster {
@@ -274,31 +294,17 @@ a {
   object-fit: cover;
 }
 
-.poster-main {
-  width: 74%;
-  top: 0;
-  right: 0;
-  transform: rotate(5deg);
-}
-
-.poster-secondary {
-  width: 44%;
-  top: 120px;
-  left: 0;
-  transform: rotate(-9deg);
-}
-
-.poster-tertiary {
-  width: 50%;
-  right: 58px;
-  bottom: 0;
-  transform: rotate(-2deg);
+.poster-single {
+  position: relative;
+  width: min(390px, 78%);
+  margin-left: auto;
+  transform: rotate(0);
 }
 
 .poster-note {
   position: absolute;
-  left: 24px;
-  bottom: 36px;
+  left: 0;
+  bottom: 42px;
   z-index: 2;
   width: min(250px, 48%);
   padding: 18px 18px 16px;
@@ -745,7 +751,7 @@ a {
   }
 
   .hero-visual {
-    min-height: 620px;
+    min-height: 560px;
   }
 
   .poster-stack {
@@ -786,25 +792,11 @@ a {
   }
 
   .hero-visual {
-    min-height: 520px;
-  }
-
-  .poster-main {
-    width: 78%;
-  }
-
-  .poster-secondary {
-    width: 47%;
-    top: 88px;
-  }
-
-  .poster-tertiary {
-    width: 56%;
-    right: 24px;
+    min-height: 500px;
   }
 
   .poster-note {
-    width: 58%;
+    width: min(280px, 56%);
     left: 12px;
     bottom: 20px;
   }
@@ -834,13 +826,17 @@ a {
     width: 100%;
   }
 
+  .app-store-badge-link {
+    width: min(190px, 100%);
+  }
+
   .hero-actions,
   .cta-actions {
     width: 100%;
   }
 
   .hero-visual {
-    min-height: 420px;
+    min-height: 0;
   }
 
   .poster {
@@ -855,23 +851,10 @@ a {
     margin-top: 26px;
   }
 
-  .poster-main {
+  .poster-single {
     position: relative;
-    right: auto;
-    transform: rotate(3deg);
-    width: 84%;
-    margin-left: auto;
-  }
-
-  .poster-secondary {
-    width: 52%;
-    top: 66px;
-  }
-
-  .poster-tertiary {
-    width: 66%;
-    right: 0;
-    bottom: 18px;
+    width: min(320px, 88%);
+    margin: 0 auto;
   }
 
   .section-head h2,
