@@ -299,6 +299,12 @@ a {
   width: min(390px, 78%);
   margin-left: auto;
   transform: rotate(0);
+  aspect-ratio: 1284 / 2778;
+}
+
+.poster-single img {
+  height: auto;
+  object-fit: contain;
 }
 
 .poster-note {
